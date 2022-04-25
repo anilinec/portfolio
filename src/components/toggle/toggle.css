@@ -1,0 +1,33 @@
+.t{
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    position: fixed;
+    border: 3px solid rgb(0, 195, 255);
+    background-color: white;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.t-button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(0, 195, 255);
+    position: absolute;
+    cursor: pointer;
+}
+@media screen and (max-width:480px) {
+    .t{
+        border: 2px solid rgb(0, 195, 255);
+    }
+}
